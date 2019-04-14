@@ -6,7 +6,14 @@
 # Difficulty: easy.
 
 def reverse(string)
-  string.reverse
+ # string.reverse
+  out = ""
+  i = string.length - 1 
+  while i >= 0
+  out += string[i]
+  i-= 1
+  end
+  return out
 end
 
 # These are tests to check that your code is working. After writing
