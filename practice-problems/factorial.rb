@@ -1,20 +1,20 @@
 # Write a method that takes an integer `n` in; it should return
 # n*(n-1)*(n-2)*...*2*1. Assume n >= 0.
-#
+
 # As a special case, `factorial(0) == 1`.
 #
 # Difficulty: easy.
 
-#def factorial(n)
-#    out = 1
-#    while n > 1 
-#        out = out * n
-#        n -= 1
-#    end
+def factorial(n)
+    out = 1
+    while n > 1 
+        out = out * n
+        n -= 1
+    end
     
-#    return out
-#    
-#end
+    return out
+    
+end
 
 
 def factorial(n)
